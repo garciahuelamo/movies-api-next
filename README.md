@@ -1,4 +1,4 @@
-# movies-api-react
+# movies-api-next
 
 A web application to browse movies using the public API of The Movie Database (TMDb). Allows:
 
