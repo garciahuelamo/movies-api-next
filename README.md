@@ -1,40 +1,33 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# movies-api-react
 
-## Getting Started
+A web application to browse movies using the public API of The Movie Database (TMDb). Allows:
 
-First, run the development server:
+View a list of popular movies.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Search movies by title.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+View movie details (title, synopsis, rating, etc.).
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+Navigate smoothly between sections.
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+# Two versions were developed:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+SPA with React Router DOM
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+SSR with Next.js.
 
-## Learn More
+#Instructions to run the project:
 
-To learn more about Next.js, take a look at the following resources:
+- Have Node.js installed (v16 or higher recommended)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+- Have a free TMDb account to get the API Key. And create a .env.local in te root of the project.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+# HOW TO TRY THE APP
 
-## Deploy on Vercel
+Home: On startup, you will see a list of popular movies.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Search: Type the title of a movie in the search bar and press Enter or the button.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+Details: Click on a movie to view its details.
+
+Navigation: Use links or the menu to go between Home, Search and Details. 
